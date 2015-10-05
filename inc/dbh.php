@@ -1,9 +1,9 @@
 <?php 
 // enter your database host, name, username, and password
 $db_host = 'localhost';
-$db_name = 'qkobcfli_tswopens';
-$db_user = 'qkobcfli_direct';
-$db_pass = '0dZ4ckfLCEZ';
+$db_name = 'xxxxxxxxxx';
+$db_user = 'xxxxxxxxxx';
+$db_pass = 'xxxxxxxxxx';
 
 // connect with pdo 
 try {
