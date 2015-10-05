@@ -1,0 +1,19 @@
+--
+-- Table structure for table `tsw_members`
+--
+
+CREATE TABLE IF NOT EXISTS `tsw_members` (
+  `idm` int(11) NOT NULL AUTO_INCREMENT,
+  `phonenumber` varchar(65) DEFAULT NULL,
+  `firstname` varchar(65) NOT NULL DEFAULT '',
+  `lastname` varchar(65) NOT NULL DEFAULT '',
+  `email` varchar(250) NOT NULL,
+  `dateregistered` varchar(65) NOT NULL,
+  `level` tinyint(1) NOT NULL DEFAULT '1',
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `active` tinyint(1) DEFAULT '0',
+  `resetToken` varchar(255) DEFAULT NULL,
+  `resetComplete` varchar(3) DEFAULT 'No',
+  PRIMARY KEY (`idm`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
