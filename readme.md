@@ -40,6 +40,7 @@ Very basic PHP Apache Server, LAMP style install:
 * add files where needed into directory structure
 * add settings in file `inc/settings.php` and connection in `inc/dbh.php`
 * send donation to Larry... lol :-)
+Also note install can be uploaded and ran as a standalone Website (albeit Bootstrap theme-able). 
 
 ## Contributors
 Open for contributions. 
