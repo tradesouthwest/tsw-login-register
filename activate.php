@@ -24,7 +24,7 @@ include 'tsw_activate.php';
 
                    <h1>Registration Complete!<h1>
 <p>Now you can start <?php echo "$username . $email"; ?></p>
-<a href="mytasks.php" class="btn btn-success">Get Started Now!</a>
+<a href="login.php" class="btn btn-success">Get Started Now!</a>
                 </div>
             </div>
         </div>
