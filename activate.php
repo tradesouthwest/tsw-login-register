@@ -2,7 +2,7 @@
 
 include 'header.php';
 $page = 'index';
-$title= 'Project Jaguar';
+$title= 'Project Name';
 ?>
 <title><?php print($title); ?></title>
 </head>
