@@ -26,8 +26,8 @@ include 'inc/functions.php';
     $query->execute();
     if($query->rowCount() > 0)
     {
-        esc("<p>This email has already been registered.</p>");
-        esc("<p>Please choose a new email if your are returning member. <a href='#' onclick='history.go(-1)'>Go Back</a></p>");
+        ?><p>This email has already been registered.</p>
+          <p>Please choose a new email. <a class="btn btn-default" href='#' onclick='history.go(-1)'>Go Back</a></p><?php
     } else {
 
         // get the thank you message
