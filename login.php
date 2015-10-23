@@ -18,7 +18,7 @@ $title= 'TSW-Login';
 
             <header class="col-lg-12">
                 <h1>TSW Basic Register and Login Script<h1>
-                   <h3>Moving forward: Please Log In </h3>
+                   <h3>Moving forward: <?php if( !isset( $_SESSION['user_session']) ) { print('Please Log In'); } else { print($_SESSION['firstname']); } ?></h3>
             </header>
 
         </div>
